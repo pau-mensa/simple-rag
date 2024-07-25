@@ -34,4 +34,4 @@ python answer_mixedbread.py --query "What was the Operating Income for AAPL on 2
 ```
 
 ### Note
-Since two implementations are done the requeriments.txt provided are quite bloated.
+Since two implementations are done the requeriments.txt provided are quite bloated. A virtual environment is heavily encouraged.
