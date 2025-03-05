@@ -2,7 +2,7 @@ from mixedbread_ai.client import MixedbreadAI
 from ragatouille import RAGPretrainedModel
 import pickle
 
-MXBAI = MixedbreadAI(api_key="emb_b01f94c0cae8641cfce160997d2d1d8322068d390ed1a3f0")
+MXBAI = MixedbreadAI(api_key="your-api-key")
 RAG = RAGPretrainedModel.from_pretrained("mixedbread-ai/mxbai-colbert-v1")
 
 def encode_documents(documents):
